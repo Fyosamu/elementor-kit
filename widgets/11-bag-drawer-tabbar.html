@@ -1,0 +1,29 @@
+<!--
+  Bag drawer (slide-in) + mobile bottom tab bar + toast. Include once.
+-->
+
+<!-- ================= BAG DRAWER ================= -->
+  <nav class="tabbar" aria-label="Mobile navigation">
+    <a href="../index.html" class="is-active"><i>&#8962;</i>Home</a>
+    <a href="../categories.html"><i>&#9638;</i>Shop</a>
+    <a href="../about.html"><i>&#9673;</i>About</a>
+    <a href="../contact.html"><i>&#9993;</i>Contact</a>
+  </nav>
+
+  <div class="drawer" id="drawer">
+    <div class="drawer__bg" data-close></div>
+    <aside class="drawer__panel">
+      <div class="drawer__head">
+        <b>Your bag</b>
+        <button class="drawer__close" data-close aria-label="Close">×</button>
+      </div>
+      <div class="drawer__items" id="drawerItems"></div>
+      <div class="drawer__foot">
+        <div class="drawer__total"><span>Subtotal</span><span id="bagTotal">$0</span></div>
+        <button class="btn btn--block" id="checkoutBtn">Checkout</button>
+        <p class="drawer__note">Shipping calculated at checkout · Free over $120</p>
+      </div>
+    </aside>
+  </div>
+
+  <div class="toast" id="toast"></div>

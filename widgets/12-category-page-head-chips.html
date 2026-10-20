@@ -1,0 +1,26 @@
+<!--
+  Dynamic page title/breadcrumb/count + category chip filter row.
+-->
+
+<!-- ===== dynamic page head ===== -->
+  <section class="page-head" id="catHead">
+    <div class="container">
+      <div class="crumbs reveal"><a href="../index.html">Home</a> / <span id="catCrumb">Categories</span></div>
+      <span class="eyebrow reveal\">The full wardrobe · <span id="catCount">19 pieces</span></span>
+      <h1 class="reveal" id="catTitle">Shop by category</h1>
+      <p class="lead reveal" id="catDesc">Six collections, one palette — everything is designed to work together, season after season.</p>
+    </div>
+  </section>
+
+  <!-- ===== category chips ===== -->
+  <div class="container">
+    <div class="chips reveal" id="chipRow">
+      <button class="chip" data-chip="all" type="button">All <span>19</span></button>
+      <button class="chip" data-chip="women" type="button">Women <span>4</span></button>
+      <button class="chip" data-chip="men" type="button">Men <span>6</span></button>
+      <button class="chip" data-chip="shoes" type="button">Shoes <span>4</span></button>
+      <button class="chip" data-chip="accessories" type="button">Accessories <span>3</span></button>
+      <button class="chip" data-chip="kids" type="button">Kids <span>2</span></button>
+      <button class="chip" data-chip="new" type="button">New in <span>6</span></button>
+    </div>
+  </div>

@@ -1,0 +1,84 @@
+<!--
+  Contact form + store info cards (uses mailto, change CONFIG in vera-kit.js).
+-->
+
+<section class="section" style="padding-top: 10px;">
+    <div class="container contact-grid">
+
+      <!-- form -->
+      <form class="contact-form reveal" id="contactForm">
+        <div class="section__head" style="margin-bottom: 26px;">
+          <div>
+            <h2 style="font-size: 1.7rem;">Send a message</h2>
+            <p style="margin-top: 8px;">Fill in the form and your email app will open with everything ready to send.</p>
+          </div>
+        </div>
+
+        <label class="field">
+          <span>Your name</span>
+          <input type="text" name="name" placeholder="Jane Doe" required />
+        </label>
+        <label class="field">
+          <span>Email address</span>
+          <input type="email" name="email" placeholder="you@email.com" required />
+        </label>
+        <label class="field">
+          <span>Topic</span>
+          <select name="topic">
+            <option>Order status</option>
+            <option>Sizing &amp; fit</option>
+            <option>Shipping &amp; returns</option>
+            <option>Payment (card / USDT)</option>
+            <option>Wholesale</option>
+            <option>Something else</option>
+          </select>
+        </label>
+        <label class="field">
+          <span>Message</span>
+          <textarea name="message" placeholder="How can we help?" required></textarea>
+        </label>
+        <button class="btn btn--block" type="submit">Send message</button>
+      </form>
+
+      <!-- info -->
+      <div class="contact-info reveal">
+        <div class="contact-card">
+          <i>✉️</i>
+          <div>
+            <b>Email</b>
+            <p>hkay7645@gmail.com<br />Wholesale & bulk orders</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>🕘</i>
+          <div>
+            <b>Support hours</b>
+            <p>Monday – Saturday · 9:00 – 18:00 (CET)<br />Replies within one working day.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>📍</i>
+          <div>
+            <b>Studio &amp; boutique</b>
+            <p>14 Rue des Ateliers<br />Open by appointment on Fridays.</p>
+          </div>
+        </div>
+
+        <div class="contact-card">
+          <i>💳</i>
+          <div>
+            <b>Payments</b>
+            <p>Card at checkout, or USDT (ERC-20) for orders over $200. Wallet address is shown on request.</p>
+          </div>
+        </div>
+
+        <figure class="contact-photo">
+          <img src="../images/boutique.jpg" alt="Inside the VERA boutique" />
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
