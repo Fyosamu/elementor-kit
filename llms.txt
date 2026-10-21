@@ -1,0 +1,9 @@
+# VERA Atelier - Elementor/WooCommerce kit (dazo)
+
+> Premium Elementor / WooCommerce theme kit for fashion brands: demo pages, category layouts, one-click import. ZIP delivered after payment in USDT. Source on GitHub: https://github.com/Fyosamu/elementor-kit. Built by dazo studio, hkay7645@gmail.com.
+
+## Pages
+
+- Kit page: https://fyosamu.github.io/elementor-kit/
+
+- Studio home and all prices: https://fyosamu.github.io/pricing/
